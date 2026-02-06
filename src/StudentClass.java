@@ -19,13 +19,13 @@ public class StudentClass {
 	int roll2 = sc.nextInt();
 	Student s1 = new Student(name1,roll1);
 	Student s2 = new Student(name2,roll2);
-	System.out.print("Name:"+s1.name);
+	System.out.print("Name: "+s1.name);
 	System.out.print(" ");
-	System.out.printf("Roll:"+s1.roll);
+	System.out.print("Roll: "+s1.roll);
 	System.out.println();
-	System.out.print("Name:"+s2.name);
+	System.out.print("Name: "+s2.name);
 	System.out.print(" ");
-	System.out.printf("Roll:"+s2.roll);
+	System.out.print("Roll: "+s2.roll);
 
 }
 
