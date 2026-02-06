@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Student{
+
+class Student {
 	String name;
 	int roll;
 Student(String name,int roll){
@@ -7,9 +8,10 @@ Student(String name,int roll){
 	this.roll = roll;
 }	
 }
-public class StudentClass {
 
-public static void main(String[] args){
+public class StudentClass {
+    
+      public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	String name1 = sc.next();
 	int roll1 = sc.nextInt();
@@ -26,4 +28,5 @@ public static void main(String[] args){
 	System.out.printf("Roll:"+s2.roll);
 
 }
+
 }
