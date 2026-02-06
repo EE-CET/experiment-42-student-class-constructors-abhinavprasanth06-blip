@@ -5,7 +5,10 @@ public class Student{
 Student(String name,int roll){
 	this.name = name;
 	this.roll = roll;
+}	
 }
+public class StudentClass {
+
 public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	String name1 = sc.next();
