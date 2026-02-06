@@ -1,25 +1,32 @@
 import java.util.Scanner;
 
 class Student {
-   
-
-    // TODO: Create a parameterized constructor Student(String name, int rollNo)
-    
-    // TODO: Create a method or use direct access to print details in the required format
+	String name;
+	int roll;
+Student(String name,int roll){
+	this.name = name;
+	this.roll = roll;
+}	
 }
 
 public class StudentClass {
     
-        
-        // TODO: Read name1
-        // TODO: Read rollNo1
-        // Hint: Handle the newline consumption if using nextLine() after nextInt()
-        
-        // TODO: Read name2
-        // TODO: Read rollNo2
-        
-        // TODO: Create two Student objects
-        
-        // TODO: Print details for both students
-    
+      public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	String name1 = sc.next();
+	int roll1 = sc.nextInt();
+	String name2 = sc.next();
+	int roll2 = sc.nextInt();
+	Student s1 = new Student(name1,roll1);
+	Student s2 = new Student(name2,roll2);
+	System.out.print("Name: "+s1.name);
+	System.out.print(" ");
+	System.out.print("Roll: "+s1.roll);
+	System.out.println();
+	System.out.print("Name: "+s2.name);
+	System.out.print(" ");
+	System.out.print("Roll: "+s2.roll);
+
+}
+
 }
